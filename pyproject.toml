@@ -30,4 +30,4 @@ Homepage = "https://github.com/yakcom/kd104a"
 Repository = "https://github.com/yakcom/kd104a"
 
 [tool.hatch.build.targets.wheel]
-packages = ["kd104a"]
+packages = ["src/kd104a"]
