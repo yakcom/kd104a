@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "kd104a"
+version = "0.1.0"
+description = "KD104A keyboard lighting control over HID, with a small, straightforward API for building and applying effects."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Ilya Miller" }
+]
+dependencies = [
+    "hidapi>=0.14.0",
+    "webcolors>=1.13"
+]
+
+keywords = ["hid", "keyboard", "rgb", "lighting", "kd104a", "dark", "dark"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://github.com/yakcom/kd104a"
+Repository = "https://github.com/yakcom/kd104a"
+
+[tool.hatch.build.targets.wheel]
+packages = ["kd104a"]
