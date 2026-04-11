@@ -1,15 +1,17 @@
 # kd104a
 Simple HID control for KD104A keyboard lighting.
 
-# Using
+# Install
 
-```python
-from kd104a import Device, Lighting, Direction, effects
+```bash
+pip install kd104a
 ```
 
 # Quick Start
 
 ```python
+from kd104a import Device, Lighting, Direction, effects
+
 keyboard = Device(product="Gaming Keyboard", interface=2)
 lighting = Lighting(keyboard)
 
@@ -23,7 +25,8 @@ lighting.set_mode(
 )
 ```
 
-# Basics
+# Usage
+
 
 ### Power
 
@@ -45,7 +48,6 @@ lighting.set_brightness(100)
 lighting.set_speed(10)
 lighting.set_direction(Direction.LEFT_RIGHT)
 ```
-
 
 # Colors
 
