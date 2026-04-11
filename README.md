@@ -27,7 +27,6 @@ lighting.set_mode(
 
 # Usage
 
-
 ### Power
 
 ```python
@@ -49,12 +48,33 @@ lighting.set_speed(10)
 lighting.set_direction(Direction.LEFT_RIGHT)
 ```
 
+# Parameters
+
+### Brightness / Speed
+
+```python
+0-100  # percent
+```
+
 # Colors
 
 ```python
 "red"
 "#ff0000"
 (255, 0, 0)
+```
+
+# Direction
+
+```python
+Direction.LEFT_RIGHT
+Direction.RIGHT_LEFT
+Direction.TOP_BOTTOM
+Direction.BOTTOM_TOP
+Direction.CENTER_OUT
+Direction.OUT_CENTER
+Direction.CLOCKWISE
+Direction.COUNTER_CLOCKWISE
 ```
 
 # Effects
