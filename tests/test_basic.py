@@ -5,7 +5,7 @@ keyboard = Device(product="Gaming Keyboard", interface=2)
 lighting = Lighting(keyboard)
 
 lighting.set_mode(
-    effects.wave,
+    effects.static,
     brightness=1,
     speed=20,
     direction=Direction.RIGHT_LEFT,

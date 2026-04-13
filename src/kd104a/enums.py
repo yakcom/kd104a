@@ -5,17 +5,17 @@ class Mode(IntEnum):
     NEON = 0x03
     BREATHING = 0x01
     WAVE = 0x02
-    BLINK = 0x04
-    RADAR = 0x05
-    RIPPLE = 0x06
-    MARQUEE = 0x07
-    SHINE = 0x08
-    RIPPLE2 = 0x09
-    INTERACTIVE = 0x0A
+    BLINK = 0x09
+    RADAR = 0x04
+    RIPPLE = 0x0E
+    MARQUEE = 0x0F
+    SHINE = 0x07
+    RIPPLE2 = 0x08
+    INTERACTIVE = 0x06
     CROSSING = 0x0B
-    FIREWORK = 0x0C
-    REACTIVE = 0x0D
-    EQUALIZER = 0x0E
+    FIREWORK = 0x10
+    REACTIVE = 0x0C
+    EQUALIZER = 0x64
 
 class Direction(IntEnum):
     RIGHT_LEFT = 0
